@@ -1,4 +1,4 @@
-//
+///
 //  ViewController.swift
 //  PlusOneApp
 //
@@ -10,6 +10,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var statusLabel: UILabel!
+    
+    @IBAction func verifyCredentialsButton(sender: UIButton) {
+        
+        let usr = "Rob"
+        let pwd = "Lee"
+
+        if usernameTextField.text == usr &&
+            passwordText.text == pwd
+        {
+
+            statusLabel.text = "Correct!"
+            statusLabel.textColor = UIColor.greenColor()
+            usernameTextField.resignFirstResponder()
+            passwordText.resignFirstResponder()
+            
+        } else {
+            
+            statusLabel.text = "Incorrect!"
+            statusLabel.textColor = UIColor.redColor()
+            usernameTextField.resignFirstResponder()
+            passwordText.resignFirstResponder()
+        
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
