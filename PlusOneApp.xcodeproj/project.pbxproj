@@ -14,6 +14,9 @@
 		0757197A1BF7BCA800227036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075719781BF7BCA800227036 /* LaunchScreen.storyboard */; };
 		075719851BF7BCA800227036 /* PlusOneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075719841BF7BCA800227036 /* PlusOneAppTests.swift */; };
 		075719901BF7BCA800227036 /* PlusOneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757198F1BF7BCA800227036 /* PlusOneAppUITests.swift */; };
+		075719A01BF7D65700227036 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0757199D1BF7D65700227036 /* FBSDKCoreKit.framework */; };
+		075719A11BF7D65700227036 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0757199E1BF7D65700227036 /* FBSDKLoginKit.framework */; };
+		075719A21BF7D65700227036 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0757199F1BF7D65700227036 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0757198B1BF7BCA800227036 /* PlusOneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlusOneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0757198F1BF7BCA800227036 /* PlusOneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneAppUITests.swift; sourceTree = "<group>"; };
 		075719911BF7BCA800227036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0757199D1BF7D65700227036 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../FacebookSDK/FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0757199E1BF7D65700227036 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../FacebookSDK/FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0757199F1BF7D65700227036 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../FacebookSDK/FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075719A01BF7D65700227036 /* FBSDKCoreKit.framework in Frameworks */,
+				075719A11BF7D65700227036 /* FBSDKLoginKit.framework in Frameworks */,
+				075719A21BF7D65700227036 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,9 @@
 				075719831BF7BCA800227036 /* PlusOneAppTests */,
 				0757198E1BF7BCA800227036 /* PlusOneAppUITests */,
 				0757196D1BF7BCA800227036 /* Products */,
+				0757199D1BF7D65700227036 /* FBSDKCoreKit.framework */,
+				0757199E1BF7D65700227036 /* FBSDKLoginKit.framework */,
+				0757199F1BF7D65700227036 /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -483,6 +495,7 @@
 				075719961BF7BCA800227036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075719971BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				075719991BF7BCA800227036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0757199A1BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +513,7 @@
 				0757199C1BF7BCA800227036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
