@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075719701BF7BCA800227036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757196F1BF7BCA800227036 /* AppDelegate.swift */; };
+		075719721BF7BCA800227036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075719711BF7BCA800227036 /* ViewController.swift */; };
+		075719751BF7BCA800227036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075719731BF7BCA800227036 /* Main.storyboard */; };
+		075719771BF7BCA800227036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075719761BF7BCA800227036 /* Assets.xcassets */; };
+		0757197A1BF7BCA800227036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075719781BF7BCA800227036 /* LaunchScreen.storyboard */; };
+		075719851BF7BCA800227036 /* PlusOneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075719841BF7BCA800227036 /* PlusOneAppTests.swift */; };
+		075719901BF7BCA800227036 /* PlusOneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0757198F1BF7BCA800227036 /* PlusOneAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075719811BF7BCA800227036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075719641BF7BCA800227036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0757196B1BF7BCA800227036;
+			remoteInfo = PlusOneApp;
+		};
+		0757198C1BF7BCA800227036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075719641BF7BCA800227036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0757196B1BF7BCA800227036;
+			remoteInfo = PlusOneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0757196C1BF7BCA800227036 /* PlusOneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlusOneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0757196F1BF7BCA800227036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		075719711BF7BCA800227036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		075719741BF7BCA800227036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075719761BF7BCA800227036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075719791BF7BCA800227036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0757197B1BF7BCA800227036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075719801BF7BCA800227036 /* PlusOneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlusOneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075719841BF7BCA800227036 /* PlusOneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneAppTests.swift; sourceTree = "<group>"; };
+		075719861BF7BCA800227036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0757198B1BF7BCA800227036 /* PlusOneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlusOneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0757198F1BF7BCA800227036 /* PlusOneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneAppUITests.swift; sourceTree = "<group>"; };
+		075719911BF7BCA800227036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075719691BF7BCA800227036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0757197D1BF7BCA800227036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075719881BF7BCA800227036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075719631BF7BCA800227036 = {
+			isa = PBXGroup;
+			children = (
+				0757196E1BF7BCA800227036 /* PlusOneApp */,
+				075719831BF7BCA800227036 /* PlusOneAppTests */,
+				0757198E1BF7BCA800227036 /* PlusOneAppUITests */,
+				0757196D1BF7BCA800227036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0757196D1BF7BCA800227036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0757196C1BF7BCA800227036 /* PlusOneApp.app */,
+				075719801BF7BCA800227036 /* PlusOneAppTests.xctest */,
+				0757198B1BF7BCA800227036 /* PlusOneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0757196E1BF7BCA800227036 /* PlusOneApp */ = {
+			isa = PBXGroup;
+			children = (
+				0757196F1BF7BCA800227036 /* AppDelegate.swift */,
+				075719711BF7BCA800227036 /* ViewController.swift */,
+				075719731BF7BCA800227036 /* Main.storyboard */,
+				075719761BF7BCA800227036 /* Assets.xcassets */,
+				075719781BF7BCA800227036 /* LaunchScreen.storyboard */,
+				0757197B1BF7BCA800227036 /* Info.plist */,
+			);
+			path = PlusOneApp;
+			sourceTree = "<group>";
+		};
+		075719831BF7BCA800227036 /* PlusOneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				075719841BF7BCA800227036 /* PlusOneAppTests.swift */,
+				075719861BF7BCA800227036 /* Info.plist */,
+			);
+			path = PlusOneAppTests;
+			sourceTree = "<group>";
+		};
+		0757198E1BF7BCA800227036 /* PlusOneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0757198F1BF7BCA800227036 /* PlusOneAppUITests.swift */,
+				075719911BF7BCA800227036 /* Info.plist */,
+			);
+			path = PlusOneAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0757196B1BF7BCA800227036 /* PlusOneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075719941BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneApp" */;
+			buildPhases = (
+				075719681BF7BCA800227036 /* Sources */,
+				075719691BF7BCA800227036 /* Frameworks */,
+				0757196A1BF7BCA800227036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlusOneApp;
+			productName = PlusOneApp;
+			productReference = 0757196C1BF7BCA800227036 /* PlusOneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0757197F1BF7BCA800227036 /* PlusOneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075719971BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppTests" */;
+			buildPhases = (
+				0757197C1BF7BCA800227036 /* Sources */,
+				0757197D1BF7BCA800227036 /* Frameworks */,
+				0757197E1BF7BCA800227036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075719821BF7BCA800227036 /* PBXTargetDependency */,
+			);
+			name = PlusOneAppTests;
+			productName = PlusOneAppTests;
+			productReference = 075719801BF7BCA800227036 /* PlusOneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0757198A1BF7BCA800227036 /* PlusOneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0757199A1BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppUITests" */;
+			buildPhases = (
+				075719871BF7BCA800227036 /* Sources */,
+				075719881BF7BCA800227036 /* Frameworks */,
+				075719891BF7BCA800227036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0757198D1BF7BCA800227036 /* PBXTargetDependency */,
+			);
+			name = PlusOneAppUITests;
+			productName = PlusOneAppUITests;
+			productReference = 0757198B1BF7BCA800227036 /* PlusOneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075719641BF7BCA800227036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Robert Lee";
+				TargetAttributes = {
+					0757196B1BF7BCA800227036 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0757197F1BF7BCA800227036 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0757196B1BF7BCA800227036;
+					};
+					0757198A1BF7BCA800227036 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0757196B1BF7BCA800227036;
+					};
+				};
+			};
+			buildConfigurationList = 075719671BF7BCA800227036 /* Build configuration list for PBXProject "PlusOneApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075719631BF7BCA800227036;
+			productRefGroup = 0757196D1BF7BCA800227036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0757196B1BF7BCA800227036 /* PlusOneApp */,
+				0757197F1BF7BCA800227036 /* PlusOneAppTests */,
+				0757198A1BF7BCA800227036 /* PlusOneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0757196A1BF7BCA800227036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0757197A1BF7BCA800227036 /* LaunchScreen.storyboard in Resources */,
+				075719771BF7BCA800227036 /* Assets.xcassets in Resources */,
+				075719751BF7BCA800227036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0757197E1BF7BCA800227036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075719891BF7BCA800227036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075719681BF7BCA800227036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075719721BF7BCA800227036 /* ViewController.swift in Sources */,
+				075719701BF7BCA800227036 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0757197C1BF7BCA800227036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075719851BF7BCA800227036 /* PlusOneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075719871BF7BCA800227036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075719901BF7BCA800227036 /* PlusOneAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075719821BF7BCA800227036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0757196B1BF7BCA800227036 /* PlusOneApp */;
+			targetProxy = 075719811BF7BCA800227036 /* PBXContainerItemProxy */;
+		};
+		0757198D1BF7BCA800227036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0757196B1BF7BCA800227036 /* PlusOneApp */;
+			targetProxy = 0757198C1BF7BCA800227036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075719731BF7BCA800227036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075719741BF7BCA800227036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		075719781BF7BCA800227036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075719791BF7BCA800227036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075719921BF7BCA800227036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		075719931BF7BCA800227036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075719951BF7BCA800227036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlusOneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		075719961BF7BCA800227036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlusOneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		075719981BF7BCA800227036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlusOneAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlusOneApp.app/PlusOneApp";
+			};
+			name = Debug;
+		};
+		075719991BF7BCA800227036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlusOneAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlusOneApp.app/PlusOneApp";
+			};
+			name = Release;
+		};
+		0757199B1BF7BCA800227036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlusOneAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlusOneApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0757199C1BF7BCA800227036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlusOneAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rleedev.ios.PlusOneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlusOneApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075719671BF7BCA800227036 /* Build configuration list for PBXProject "PlusOneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075719921BF7BCA800227036 /* Debug */,
+				075719931BF7BCA800227036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075719941BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075719951BF7BCA800227036 /* Debug */,
+				075719961BF7BCA800227036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		075719971BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075719981BF7BCA800227036 /* Debug */,
+				075719991BF7BCA800227036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0757199A1BF7BCA800227036 /* Build configuration list for PBXNativeTarget "PlusOneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0757199B1BF7BCA800227036 /* Debug */,
+				0757199C1BF7BCA800227036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075719641BF7BCA800227036 /* Project object */;
+}
